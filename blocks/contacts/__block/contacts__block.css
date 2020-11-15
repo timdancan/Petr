@@ -1,0 +1,11 @@
+.contacts__block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 93px;
+}
+@media screen and (max-width:520px){
+  .contacts__block{
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}

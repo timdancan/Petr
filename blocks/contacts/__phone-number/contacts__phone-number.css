@@ -1,0 +1,9 @@
+.contacts__phone-number {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: oppacity 0.5s ease-in-out;
+}
+.contacts__phone-number:hover{
+  opacity: 0.5;
+}

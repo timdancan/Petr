@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="container header__container">
+        <a class="page-link" href="index.html">
+          <img src="./images/Vector.svg" alt="лого" class="logo">
+        </a>
+        <ul class="socials">
+          <li class="socials__link">
+            <a class="page-link" href="#"><img class="socials__icons" src="./images/github.svg" alt="гитхаб" /></a>
+          </li>
+          <li class="socials__link">
+            <a class="page-link" href="#"><img class="socials__icons" src="./images/twitter.svg" alt="твиттер" /></a>
+          </li>
+          <li class="socials__link">
+            <a class="page-link" href="#"><img class="socials__icons" src="./images/instagram.svg" alt="инстаграм" /></a>
+          </li>
+          <li class="socials__link">
+            <a class="page-link" href="#"><img class="socials__icons" src="./images/facebook.svg" alt="фейстбук" /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__group">
+              <p class="hero__profession">Фрилансер</p>
+              <h1 class="hero__name">Петр Федоров</h1>
+              <p class="hero__description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+              <button class="button">Бесплатная консультация</button>
+            </div>
+            <img class="hero__image" src="./images/avatar.png" alt="аватар">
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features__container">
+          <h2 class="features__title">Со мной удобно работать</h2>
+          <div class="features__blocks">
+            <div class="features__block">
+              <img
+                class="features__block-img"
+                src="./blocks/features/__block-img/offer-img.svg"
+                alt="Договор"
+              />
+              <h3 class="features__block-name">По договору</h3>
+              <p class="features__block-text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="features__block">
+              <img
+                class="features__block-img"
+                src="./blocks/features/__block-img/deadline-img.svg"
+                alt="Дедлйн"
+              />
+              <h3 class="features__block-name">Точно в срок</h3>
+              <p class="features__block-text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="features__block">
+              <img
+                class="features__block-img"
+                src="./blocks/features/__block-img/agreement-img.svg"
+                alt="Ценник"
+              />
+              <h3 class="features__block-name">Ценник под вас</h3>
+              <p class="features__block-text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="features__block">
+              <img
+                class="features__block-img"
+                src="./blocks/features/__block-img/steps-img.svg"
+                alt="Итоги"
+              />
+              <h3 class="features__block-name">Премежуточные итоги</h3>
+              <p class="features__block-text">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="features__block">
+              <img
+                class="features__block-img"
+                src="./blocks/features/__block-img/storage-img.svg"
+                alt="Хостинг"
+              />
+              <h3 class="features__block-name">Хостинг и домен</h3>
+              <p class="features__block-text">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="features__block">
+              <img
+                class="features__block-img"
+                src="./blocks/features/__block-img/conversation-img.svg"
+                alt="Сопровождение"
+              />
+              <h3 class="features__block-name">Не брошу после сдачи</h3>
+              <p class="features__block-text">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Выполненные проекты</h2>
+          <div class="grid portfolio__grid">
+            <div class="portfolio__card">
+              <p class="portfolio__text">The curious corner
+                of chamarel</p>
+              <button class="portfolio__button page-link">Посмотреть</button>
+            </div>
+            <div class="portfolio__card">
+              <p class="portfolio__text">Gymkhana club golf
+                course</p>
+              <button class="portfolio__button page-link">Посмотреть</button>
+            </div>
+            <div class="portfolio__card">
+              <p class="portfolio__text">Tamarind falls hiking
+                trip - full day</p>
+              <button class="portfolio__button page-link">Посмотреть</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" >
+        <div class="container" >
+            <div class="gallery__photo-grid" >
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery01.jpg" alt="комната с диваном" id="first-img">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery02.jpg" alt="столики в кафе">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery03.jpg" alt="беседа четырех людей">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery04.jpg" alt="класс">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery05.jpg" alt="логотип figma">
+              <div class="gallery__video">
+                <div class="gallery__video-time">0:28</div>
+                <a href="#"><img class="gallery__video-icon" src="blocks/gallery/__video-icon/play_circle_filled.svg" alt="иконка play"></a>
+                <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery06.jpg" alt="macbook">
+              </div>
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery07.jpg" alt="книжная полка">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery08.jpg" alt="стол с 4 стульями">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery09.jpg" alt="женщина в телняжке">
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery10.jpg" alt="печать figma">
+              <div class="gallery__video">
+                <div class="gallery__video-time">0:28</div>
+                <a href="#"><img class="gallery__video-icon" src="blocks/gallery/__video-icon/play_circle_filled.svg" alt="иконка play"></a>
+                <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery11.jpg" alt="мост">
+              </div>
+              <img class="gallery__photo" src="./blocks/gallery/__photo-grid/gallery12.jpg" alt="обед за столом">
+            </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title">Свяжитесь со мной</h2>
+          <div class="contacts__block">
+            <div class="contacts__form">
+              <p class="contacts__info">Можете просто оставить заявку, я позвоню вам сегодня</p>
+              <label class="contacts__label"><img src="./images/user-icon.svg" alt="Имя">
+              <input class="contacts__input" type="text" class="contacts__name" placeholder="Ваше имя" required></label>
+              <label class="contacts__label"><img src="./images/phone-icon.svg" alt="телефон">
+              <input class="contacts__input" type="tel" class="contacts__number" placeholder="Ваш телефон" required></label>
+              <button class="button contacts__button">Бесплатная консультация </button>
+            </div>
+            <div class="contacts__text">
+              <div class="contacts__data">
+                <div class="contacts__phone">
+                  <p class="contacts__phone-text">Телефон</p>
+                  <a class="contacts__phone-number" href="tel:+79991234567">+7&nbsp;999&nbsp;123&nbsp;45&nbsp;67</a>
+                </div>
+                <div class="contacts__mail">
+                  <p class="contacts__mail-text">Почта</p>
+                  <a class="contacts__mail-email" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
+                </div>
+              </div>
+                <div class="contacts__social">
+                  <p class="contacts__social-network">Соцсети</p>
+                  <a class="contacts__social-link" href="#">t.me/ivanov</a>
+                  <a class="contacts__social-link" href="#">vk.me/ivanov</a>
+                  <a class="contacts__social-link" href="#">fb.me/ivanov</a>
+                </div>
+
+                  <ul class="socials">
+                    <li class="socials__link">
+                      <a class="page-link" href="#"><img class="socials__icons" src="./images/github.svg" alt="гитхаб" /></a>
+                    </li>
+                    <li class="socials__link">
+                      <a class="page-link" href="#"><img class="socials__icons" src="./images/twitter.svg" alt="твиттер" /></a>
+                    </li>
+                    <li class="socials__link">
+                      <a class="page-link" href="#"><img class="socials__icons" src="./images/instagram.svg" alt="инстаграм" /></a>
+                    </li>
+                    <li class="socials__link">
+                      <a class="page-link" href="#"><img class="socials__icons" src="./images/facebook.svg" alt="фейстбук" /></a>
+                    </li>
+                  </ul>
+
+
+              <a class="contacts__confidential" href="#">Политика конфиденциальности</a>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+    </main>
+  </body>
+</html>

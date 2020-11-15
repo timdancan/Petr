@@ -1,0 +1,12 @@
+@keyframes pulse {
+  from {transform: scale(1);}
+  to {transform: scale(1.1);}
+}
+
+.gallery__video-icon{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding: 9.34px 9.34px 0 0;
+  animation: pulse 1s ease-in-out infinite alternate;
+}

@@ -1,0 +1,11 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 41px;
+}
+
+@media (max-width: 500px) {
+  .header__container {
+    padding-top: 35px;
+  }
+}

@@ -1,0 +1,15 @@
+.contacts__mail-email {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: oppacity 0.5s ease-in-out;
+}
+.contacts__mail-email:hover{
+  opacity: 0.5;
+}
+@media screen and (max-width:768px){
+  .contacts__mail-email{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

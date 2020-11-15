@@ -1,0 +1,13 @@
+.contacts__label {
+  display: flex;
+  align-content: center;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .contacts__label {
+    padding: 18px 22px;
+    margin-bottom: 18px;
+  }
+}

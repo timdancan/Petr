@@ -1,0 +1,41 @@
+.portfolio__card {
+  background-image: url(../../../images/Portfolio1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 6px;
+  position: relative;
+  padding: 28px 30px;
+}
+
+.portfolio__card:nth-child(2) {
+  background-image: url(../../../images/Portfolio2.png);
+}
+
+.portfolio__card:nth-child(3) {
+  background-image: url(../../../images/Portfolio3.jpg);
+}
+
+.portfolio__card::before {
+  content: '';
+  display: block;
+  padding-top: 50%;
+}
+
+.portfolio__card::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
+  z-index: 0;
+}
+
+@media (max-width: 375px) {
+  .portfolio__card {
+    padding: 25px 24px;
+  }
+}

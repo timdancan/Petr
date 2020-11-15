@@ -1,0 +1,12 @@
+.hero__image {
+  border-radius: 50%;
+  border: 11px solid white;
+}
+
+@media (max-width: 500px) {
+  .hero__image {
+    width: 107px;
+    height: 107px;
+    border: 2px solid white;
+  }
+}

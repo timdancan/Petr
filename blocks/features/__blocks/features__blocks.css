@@ -1,0 +1,20 @@
+.features__blocks{
+  max-width: 944px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(267px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(196px, 1fr));
+  margin: 0 auto;
+  gap: 64px 16px;
+  padding-top: 80px;
+
+}
+
+@media screen and (max-width:320px) {
+.features__blocks{
+  grid-template-columns:1fr;
+  grid-template-rows: repeat(6,1fr);
+  row-gap: 30px;
+  padding-top: 59px;
+}
+}

@@ -1,0 +1,12 @@
+.contacts__social-network {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Roboto-Bold', 'Arial', sans-serif;
+}
+@media screen and (max-width:520px){
+  .contacts__social-network{
+    padding: 0 0  12px 0;
+  }
+}

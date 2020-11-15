@@ -1,0 +1,15 @@
+.portfolio__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 64px 0 54px;
+}
+
+@media (max-width: 500px) {
+  .portfolio__title {
+    font-size: 19px;
+    line-height: 22px;
+    padding: 61px 0 35px;
+  }
+}

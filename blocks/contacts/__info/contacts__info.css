@@ -1,0 +1,16 @@
+.contacts__info {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin: 8px 0 30px;
+}
+
+@media (max-width: 500px) {
+  .contacts__info {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 16px 0 28px;
+  }
+}

@@ -1,0 +1,16 @@
+.contacts__data{
+  display: flex;
+  flex-direction: row;
+  padding:0 0 32px 0 ;
+
+}
+@media screen and (max-width:1024px){
+  .contacts__data{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:520px){
+  .contacts__data{
+    padding: 0 0  35px 0;
+  }
+}

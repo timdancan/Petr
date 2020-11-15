@@ -1,0 +1,17 @@
+.portfolio__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 12px;
+  max-width: 158px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 375px) {
+  .portfolio__text {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 22px;
+  }
+}

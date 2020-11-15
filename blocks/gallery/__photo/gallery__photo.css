@@ -1,0 +1,13 @@
+.gallery__photo{
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+}
+
+@media screen and (max-width:320px){
+  .gallery__photo{
+  width: 126px;
+  height: 126px;
+  object-fit: cover;
+  }
+}

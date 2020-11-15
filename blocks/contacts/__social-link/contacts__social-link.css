@@ -1,0 +1,27 @@
+.contacts__social-link{
+  padding: 0 3.90625vw 0 0;
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: oppacity 0.5s ease-in-out;
+}
+.contacts__social-link:hover{
+  opacity: 0.5;
+}
+.contacts__social-link:last-child {
+  padding: 0 0 0 0;
+}
+@media screen and (max-width:768px){
+  .contacts__social-link{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width:520px){
+  .contacts__social-link{
+    padding: 0 0  13px 0;
+  }
+  .contacts__social-link:last-child{
+    padding: 0 0 0 0;
+  }
+}

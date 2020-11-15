@@ -1,0 +1,42 @@
+.gallery__photo-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 224px);
+  grid-template-rows: repeat(auto-fit, 224px);
+  gap: 16px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media screen and (max-width:320px){
+  .gallery__photo-grid{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 0 27px 0 27px;
+
+
+    box-sizing: border-box;
+    }
+    /* Размеры скроллбара */
+    .gallery__photo-grid::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    /* Трек поле скроллбара */
+    .gallery__photo-grid::-webkit-scrollbar-track {
+
+      background: #CECECE;
+      border-radius: 6px;
+    }
+
+    /* Ползунок скроллбара */
+    .gallery__photo-grid::-webkit-scrollbar-thumb {
+
+      background: #FFBB01;
+      border-radius: 6px;
+    }
+}
+
+

@@ -1,0 +1,18 @@
+.hero__description {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 20px 0 38px;
+}
+
+@media (max-width: 850px) {
+  .hero__description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero__description {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}

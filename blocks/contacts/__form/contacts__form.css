@@ -1,0 +1,18 @@
+.contacts__form {
+  max-width: 458px;
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 39px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .contacts__form {
+    padding: 22px;
+    box-shadow: -3px 3px 0px #ffc41d;
+  }
+}

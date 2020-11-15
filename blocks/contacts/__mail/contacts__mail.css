@@ -1,0 +1,9 @@
+.contacts__mail {
+  max-width: 110px;
+  padding: 0 20px 0 0;
+}
+@media screen and (max-width:520px){
+  .contacts__mail{
+    padding: 35px 0  0 0;
+  }
+}

@@ -1,0 +1,22 @@
+.contacts__text{
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  width: 100vw;
+  position: relative;
+  padding: 0 0 0 7.5vw;
+  font-size: 16px;
+  line-height: 28px;
+}
+@media screen and (max-width:768px){
+  .contacts__text{
+    padding: 0 0 0 20px;
+  }
+}
+
+@media screen and (max-width:520px){
+  .contacts__text{
+    padding: 53px 0 0 27px;
+  }
+}
+
