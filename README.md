@@ -1,1 +1,2 @@
-# 20-challenge-team-lavender
+# Ссылка на проект
+https://timdancan.github.io/Petr/.
